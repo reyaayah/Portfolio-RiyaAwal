@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+#resume-style {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20%; 
+    border: 3px solid black;
+    position: absolute;
+    right: 20%;
+    left: 20%;
+    height: 1000px;
+
+}
+#sub-container{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+
+}
+#profile-box{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgb(129, 126, 126)2px 2px 2px 2px;
+    background-color: rgb(144, 141, 141) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 300px;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+#contactinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.topic{
+    margin-top: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: rgb(144, 141, 141) ;
+    border-radius: 2px;
+    padding: 2px;
+}
